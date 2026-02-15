@@ -1,0 +1,12 @@
+@import url("./base/global.css");
+
+@import url("./blocks/button.css");
+@import url("./blocks/card.css");
+@import url("./blocks/catalog.css");
+@import url("./blocks/faq.css");
+@import url("./blocks/footer.css");
+@import url("./blocks/hero.css");
+@import url("./blocks/info.css");
+@import url("./blocks/nav.css");
+@import url("./blocks/product-card.css");
+@import url("./blocks/review-card.css");

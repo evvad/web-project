@@ -1,0 +1,45 @@
+.review__list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.review-card {
+    gap: 16px;
+    padding: 32px 40px;
+}
+
+.review-card__header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.review-card__title {
+    width: 50%;
+}
+
+.review-card__stars {
+    display: flex;
+    align-items: center;
+    max-width: 136px;
+    gap: 8px;
+}
+
+.review-card__date {
+    font-size: 14px;
+    color: #747474;
+}
+
+
+@media (min-width: 769px) {
+
+    .review-card {
+        padding: 56px 80px;
+        gap: 24px;
+    }
+
+    .review-card__stars {
+        max-width: 100%;
+    }
+}

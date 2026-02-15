@@ -1,0 +1,31 @@
+.faq__list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+}
+
+.faq-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.faq-item__question-text {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: none;
+    text-align: start;
+}
+
+.faq-item__answer {
+    display: none;
+}
+
+.faq-item_open .faq-item__answer {
+    display: block;
+}
+
+.faq-item__answer-inner {
+    margin: 16px 32px;
+}

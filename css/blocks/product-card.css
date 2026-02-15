@@ -1,0 +1,80 @@
+.weekly-deals__list {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+}
+
+.product-card {
+    flex: 1;
+    padding: 16px;
+    gap: 8px;
+}
+
+.product-card_invisible_on_mobile {
+    display: none;
+}
+
+.product-card__image {
+    height: 240px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-card__info {
+    font-size: 16px;
+    color: #747474;
+}
+
+.product-card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-card__price-box {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.product-card__price {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.product-card__crossed-price {
+    font-size: 14px;
+    color: #747474;
+    text-decoration: line-through;
+}
+
+
+@media (min-width: 481px) {
+    .product-card_invisible_on_mobile:nth-child(2) {
+        display: flex;
+    }
+}
+
+@media (min-width: 769px) {
+    .product-card__landing-image {
+        height: 328px;
+    }
+
+    .product-card__catalog-image {
+        height: 221px;
+    }
+
+    .product-card__price {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1025px) {
+    .product-card_invisible_on_mobile:nth-child(3) {
+        display: flex;
+    }
+
+    .product-card__landing-image {
+        height: 100%;
+    }
+}
